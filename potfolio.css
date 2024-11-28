@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Luckiest+Guy&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Bubbles&family=Rubik+Wet+Paint&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Luckiest+Guy&family=Paytone+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Bubbles&family=Rubik+Mono+One&family=Rubik+Wet+Paint&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Danfo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Luckiest+Guy&family=Paytone+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Bubbles&family=Rubik+Mono+One&family=Rubik+Wet+Paint&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bree+Serif&family=Danfo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Luckiest+Guy&family=Paytone+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Bubbles&family=Rubik+Mono+One&family=Rubik+Wet+Paint&family=Sixtyfour+Convergence&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+#body {
+    width: auto;
+    height: auto;
+    background: linear-gradient(90deg, rgba(1, 37, 57, 1) 31%, rgba(2, 75, 110, 1) 65%, rgba(1, 37, 57, 1) 77%);
+    background-attachment: fixed;
+    border-radius: 10px;
+}
+
+.fpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontpage {
+    width: 1230px;
+    height: 550px;
+    border-radius: 0px;
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-size: 1250px 550px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+    .frontpage {
+        width: 900px;
+        background-size: 850px 550px;
+    }
+
+    .content p {
+        width: 300px;
+
+        
+    }
+
+    .content {
+        margin-right: 150px;
+    }
+
+    .fpage {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .frontpage {
+        width: 1800px;
+        background-size: 1100px 550px;
+    }
+
+    .content p {
+        width: 300px;
+        font-size: 25px;
+    }
+
+    .content {
+        margin-right: 200px;
+    }
+
+    .fpage {
+        margin-left: 160px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .frontpage {
+        width: 850px;
+        background-size: 500px 550px;
+    }
+
+    .content p {
+        width: 300px;
+
+    }
+
+    .content {
+        margin-right: 240px;
+    }
+
+    .fpage {
+        margin-left: 160px;
+    }
+
+    .content h2 {
+        font-size: 22px;
+    }
+
+    .content h3 {
+        font-size: 22px;
+    }
+
+    .content h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .frontpage {
+        width: 350px;
+        background-size: 350px 550px;
+    }
+
+    .fpage {
+        margin-right: 150px;
+    }
+
+    .content p {
+        width: 190px;
+        font-size: 15px;
+
+    }
+
+    .content h2 {
+        font-size: 15px;
+    }
+
+    .content h3 {
+        font-size: 16px;
+    }
+
+    .content h1 {
+        font-size: 18px;
+    }
+
+    .content {
+        margin-right: 150px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .frontpage {
+        width: 300px;
+        background-size: 300px 550px;
+    }
+
+    .content p {
+        width: 180px;
+        font-size: 14px;
+
+    }
+
+    .content h2 {
+        font-size: 15px;
+    }
+
+    .content h3 {
+        font-size: 15px;
+    }
+
+    .content h1 {
+        font-size: 15px;
+    }
+
+    .fpage {
+        margin-right: 160px;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+    .frontpage {
+        width: 250px;
+        background-size: 260px 550px;
+    }
+
+    .content {
+        margin-right: 120px;
+    }
+
+    .content p {
+        width: 160px;
+        font-size: 12px;
+
+    }
+
+    .fpage {
+        margin-right: 180px;
+    }
+}
+
+.content h1 {
+    text-transform: uppercase;
+    font-family: "Sixtyfour Convergence", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0,
+        "XELA" 0,
+        "YELA" 0;
+}
+
+.content h2 {
+    text-transform: capitalize;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.content h3 {
+    text-transform: capitalize;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.content p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.content {
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+.content button {
+    height: 40px;
+    text-transform: capitalize;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    box-shadow: 10px 10px 5px black;
+}
+
+.content button:hover {
+    background-color: gray;
+
+}
+
+.frontpage {
+    color: #333;
+    animation: fadeIn 2s ease-in-out alternate;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.content {
+    color: #333;
+    animation: fadeIn 2s ease-in-out alternate;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 
+--------------------------------about---------------------------------------------- */
+.heading {
+    background-color: whitesmoke;
+    text-transform: capitalize;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left {
+    width: 500px;
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+@media screen and (min-width: 1024px) {
+    .left {
+        width: 400px;
+        margin: 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .left {
+        width: 700px;
+        margin: 40px;
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .left {
+        width: 350px;
+        margin: 40px;
+        font-size: 20px;
+    }
+
+    .contc h3 {
+        font-size: 19px;
+    }
+
+    .contc h5 {
+        font-size: 18px;
+    }
+
+    .card {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .left {
+        width: 300px;
+        margin: 40px;
+        font-size: 20px;
+    }
+
+    .contc h3 {
+        font-size: 19px;
+    }
+
+    .contc h5 {
+        font-size: 18px;
+    }
+
+    .contc {
+        display: flex;
+        flex-direction: column;
+        border-top: 4px solid rgb(5, 5, 5);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .left {
+        width: 250px;
+        margin: 40px;
+        font-size: 15px;
+    }
+
+    .contc h3 {
+        font-size: 15px;
+    }
+
+    .contc h5 {
+        font-size: 15px;
+    }
+}
+
+.contc {
+    display: flex;
+    justify-content: space-around;
+    border-top: 4px solid rgb(5, 5, 5);
+}
+
+.contc h5 {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card {
+    border: 2px solid black;
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: arial;
+    background-color: white
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* General Styling for the Education Section */
+
+
+#education h1 {
+    background-color: whitesmoke;
+    text-transform: capitalize;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 10px;
+
+}
+
+.education-item {
+    margin: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 10px solid black;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 10px 10px 15px gray;
+    text-align: center;
+}
+
+.education-item h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.education-item p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+.education-item .description {
+    font-style: italic;
+    color: #777;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 425px) {
+    .education-item h3 {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .education-item h3 {
+        font-size: 19px;
+    }
+}
+
+/* ----------------------------------------------------------------------------  contact*/
+
+.contact-section h1 {
+    background-color: whitesmoke;
+    text-transform: capitalize;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+table th {
+    background-color: whitesmoke;
+    color: #333;
+}
+
+table td {
+    background-color: lightslategray;
+    color: #333;
+    font-weight: bold;
+}
+
+table td:hover {
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 375px) {
+    table {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    table {
+        width: 100%;
+    }
+}
+
+#skills h1 {
+    background-color: whitesmoke;
+    text-transform: capitalize;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
